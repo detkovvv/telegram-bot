@@ -1,0 +1,21 @@
+{
+  "name": "whatistheweather_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Detkov Vasiliy",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0",
+    "telegraf": "^4.15.0",
+    "telegraf-session-mongoose": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
